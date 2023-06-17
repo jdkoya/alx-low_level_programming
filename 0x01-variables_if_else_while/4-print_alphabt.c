@@ -9,9 +9,9 @@ int main(void)
 {
 	int c;
 
-	for (c = 97; c < 123; c++)
+	for (c = -1; c < 26; c++)
 	{
-		if (c != 97 && c != 113)
+		if (c != 4 && c != 16)
 		{
 		putchar(c);
 		}
