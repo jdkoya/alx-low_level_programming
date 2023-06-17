@@ -3,16 +3,18 @@
 #include <time.h>
 /* more headers goes there */
 
-/** main - A programme that prints when a condition is met
- * Return: 0
+/**
+ * main - A programme that prints when a condition is met
+ * Return:0
  */
+
 int main(void)
 {
 	int n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	if ((n % 10) > 5 )
+	if ((n % 10) > 5)
 	{
 	printf("Last digit of %d is %d and is greater than 5\n", n, n % 10);
 	}
