@@ -2,7 +2,7 @@
 /**
  * _abs - A programme that prints absolute values
  * Return: 0
- * @int: is an integer
+ * @t: is an integer
  */
 int _abs(int t)
 {
