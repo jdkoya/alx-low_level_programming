@@ -11,11 +11,11 @@
  * Description: a structure that is use to collect data of my dog
  */
 
-struct dog
+typedef struct dog
 {
 	char *name;
 	float age;
 	char *owner;
-};
+} dog_t;
 
 #endif
