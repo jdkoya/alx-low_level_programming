@@ -8,5 +8,5 @@ NAME = school
 
 school: $(OBJ)
 	$(CC) $(OBJ) -o $(NAME)
-$(OBJ): $(SRC)
+$(OBJ): $(SRC) m.h
 	$(CC) -c $(SRC)
