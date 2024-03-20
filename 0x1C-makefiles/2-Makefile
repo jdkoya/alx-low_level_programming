@@ -8,5 +8,7 @@ NAME = school
 
 school: $(OBJ)
 	$(CC) $(OBJ) -o $(NAME)
-$(OBJ): $(SRC) m.h
-	$(CC) -c $(SRC)
+main.o: main.c m.h
+	$(CC) -c main.c
+school.o: schhool.c m.h
+	$(CC) -c school.c
