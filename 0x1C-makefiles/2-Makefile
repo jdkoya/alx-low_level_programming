@@ -1,10 +1,9 @@
 # more make files
 
-all: school
 CC = gcc
 SRC = main.c school.c
 OBJ = $(SRC:.c=.o)
 NAME = school
 
-school: $(OBJ)
+all: $(OBJ)
 	$(CC) $(OBJ) -o $(NAME)
